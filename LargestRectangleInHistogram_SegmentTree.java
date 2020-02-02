@@ -5,7 +5,7 @@ package main.java.leetCode;
  * Use Segment Tree for optimizing complexity of finding min from O(n) at worse to O(log n)
  * Created by qiuqian on 2/1/20.
  */
-public class LargestRectangleInHistogram {
+public class LargestRectangleInHistogram_SegmentTree {
 
 
     public int largestRectangleArea(int[] heights) {
@@ -79,7 +79,7 @@ public class LargestRectangleInHistogram {
 
     public static void main(String[] args) {
         int[] heights = {2,1,5,6,2,3};
-        int maxArea = new LargestRectangleInHistogram().largestRectangleArea(heights);
+        int maxArea = new LargestRectangleInHistogram_SegmentTree().largestRectangleArea(heights);
         final int expected = 10;
         if (maxArea != expected) {
             System.out.println("Wrong answer. Actual: " + maxArea + "; Expected: " + expected);
