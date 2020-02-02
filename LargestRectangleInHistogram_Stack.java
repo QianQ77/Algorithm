@@ -11,7 +11,7 @@ import java.util.Stack;
  * `left` is the index of the last bar whose height is less than heights[i] in the left.
  * time complexity: O(n)
  * space complexity: O(n)
- * 
+ *
  * Created by qiuqian on 2/1/20.
  */
 public class LargestRectangleInHistogram_Stack {
